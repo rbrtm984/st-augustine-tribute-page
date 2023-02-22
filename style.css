@@ -1,0 +1,44 @@
+<style>
+
+.div {
+  background-color: #000000;
+}
+
+h1 {
+  font-family: "Sofia", sans-serif;
+}
+p{
+}
+figcaption{
+}
+a{
+}
+.figure {
+  width: auto;
+  text-align: center;
+  margin: auto;
+  border: 3px green;
+  font-family: "Sofia", sans-serif;
+}
+.responsive-image {
+  
+  /* User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size. */
+  
+  max-width: 50%;
+  height: auto;
+  object-position: center;
+  
+  /* User Story #9: The img element should be centered within its parent element. */
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px dashed gray;
+}
+body {
+  background-color: gray;
+}
+</style>
+
+<body>
+</body>
